@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@700&family=Shalimar&family=Varela+Round&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+h1 {
+	font-family: "Dancing Script", cursive;
+	letter-spacing: 0.5rem;
+	text-transform: capitalize;
+	color: rgb(102, 102, 85);
+}
+.container {
+	word-wrap: wrap;
+	color: white;
+	font-family: "Dancing Script", cursive;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5rem;
+	height: 50vh;
+	background-image: url(christmas.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100vh;
+}
+.days {
+	text-transform: capitalize;
+}
+.hours {
+	text-transform: capitalize;
+}
+
+.minutes {
+	text-transform: capitalize;
+}
+.seconds {
+	color: rgb(243, 243, 19);
+	text-transform: capitalize;
+}
